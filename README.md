@@ -36,3 +36,23 @@ Terraform → AWS EC2 (Linux) → Docker → Containerized Application → Pytho
 - Automated remediation is triggered
 - Container/service is restarted
 - Event is logged
+
+---
+# 📂 Project Structure
+project-root/
+│── terraform/
+│     ├── main.tf
+│     ├── variables.tf
+│     ├── outputs.tf
+│
+│── docker/
+│     ├── Dockerfile
+│
+│── monitoring/
+│     ├── monitor.py
+│
+│── logs/
+│     ├── system.log
+│
+│── README.md
+
