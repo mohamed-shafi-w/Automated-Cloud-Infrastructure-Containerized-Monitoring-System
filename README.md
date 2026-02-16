@@ -17,3 +17,22 @@ Terraform → AWS EC2 (Linux) → Docker → Containerized Application → Pytho
 - **🐳 Docker** – Containerized application deployment
 - **🐍 Python** – Monitoring & automation
 - **🔁 Git** – Version control
+
+---
+# ⚙️ Key Features
+
+- **Infrastructure Automation:** Provisioned AWS resources using Terraform
+- **Linux Server Configuration:** Configured EC2 instance and installed dependencies
+- **Containerized Deployment:** Deployed applications using Docker
+- **Monitoring System:** Implemented Python-based monitoring agent
+- **Self-Healing Mechanism:** Automated recovery of failed containers/services
+- **Logging:** Maintained logs for failures and remediation actions
+
+---
+# 🧪 Failure Recovery Scenario
+
+- A Docker container or service stops unexpectedly
+- Python monitoring agent detects the failure
+- Automated remediation is triggered
+- Container/service is restarted
+- Event is logged
