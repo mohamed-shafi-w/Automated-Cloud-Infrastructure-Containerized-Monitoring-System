@@ -6,7 +6,17 @@ This project focuses on building an automated and reliable cloud environment whe
 ---
 # 🏗 Architecture
 
-Terraform → AWS EC2 (Linux) → Docker → Containerized Application → Python Monitoring Agent → Self-Healing Recovery
+```
+Terraform
+   ↓
+AWS EC2 (Linux)
+   ↓
+Docker Containers
+   ↓
+Python Monitoring Agent
+   ↓
+Failure Detection → Self-Healing Action
+```
 
 ---
 # 🧰 Tech Stack
@@ -54,5 +64,7 @@ project-root/
   - system.log
 - README.md
 ```
+
+---
 
 
