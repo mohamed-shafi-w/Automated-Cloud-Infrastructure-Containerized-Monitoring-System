@@ -9,8 +9,8 @@ Terraform → AWS EC2 (Linux) → Docker → Containerized Application → Pytho
 
 ---
 # 🧰 Tech Stack
-**🐧 Linux** – Core server environment
-**☁️ AWS** – Cloud infrastructure (EC2, Security Groups)
+- **🐧 Linux** – Core server environment
+- **☁️ AWS** – Cloud infrastructure (EC2, Security Groups)
 **🏗 Terraform** – Infrastructure as Code (IaC)
 **🐳 Docker** – Containerized application deployment
 **🐍 Python** – Monitoring & automation
