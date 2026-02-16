@@ -38,21 +38,21 @@ Terraform → AWS EC2 (Linux) → Docker → Containerized Application → Pytho
 - Event is logged
 
 ---
-# 📂 Project Structure
+## 📂 Project Structure
+
+```
 project-root/
-│── terraform/
-│     ├── main.tf
-│     ├── variables.tf
-│     ├── outputs.tf
-│
-│── docker/
-│     ├── Dockerfile
-│
-│── monitoring/
-│     ├── monitor.py
-│
-│── logs/
-│     ├── system.log
-│
-│── README.md
+- terraform/
+  - main.tf
+  - variables.tf
+  - outputs.tf
+- docker/
+  - Dockerfile
+- monitoring/
+  - monitor.py
+- logs/
+  - system.log
+- README.md
+```
+
 
